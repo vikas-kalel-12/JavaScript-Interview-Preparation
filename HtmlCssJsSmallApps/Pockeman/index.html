@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Abilities</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Pokémon Abilities</h1>
+      </header>
+      <section>
+        <label for="pokemon-name">Select Pokémon</label>
+        <select id="pokemon-name">
+          <option>Select</option>
+        </select>
+      </section>
+      <section class="ability-wrapper">
+        <h2>Abilities</h2>
+        <ul class="ability-list" id="ability-list"></ul>
+      </section>
+      <section>
+        <h2>Pokémon List</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Ability</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

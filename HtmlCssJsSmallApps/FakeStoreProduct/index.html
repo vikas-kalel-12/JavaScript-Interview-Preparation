@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Product Listing</h1>
+        <div class="sort-container">
+          <label class="order" for="sortOrder">Sort by price</label>
+          <select id="sortOrder">
+            <option value="asc">Ascending</option>
+            <option value="desc">Descending</option>
+          </select>
+        </div>
+      </header>
+      <section
+        class="product-listing"
+        id="productListing"
+        aria-label="Product Listing"
+      ></section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

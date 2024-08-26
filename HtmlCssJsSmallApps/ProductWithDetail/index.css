@@ -1,0 +1,13 @@
+.list-item{
+    list-style: none;
+    width: 29%;
+    padding: 1%;
+    margin: 1%;
+}
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

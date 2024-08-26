@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="preload"
+      as="style"
+      href="index.css"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form-data">
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            placeholder="Enter Name"
+            name="name"
+            id="name"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            placeholder="Enter Email"
+            name="email"
+            id="email"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <legend>Select Party</legend>
+          <div>
+            <input type="radio" id="party-a" name="party" value="Party A" />
+            <label for="party-a">Party A</label>
+          </div>
+          <div>
+            <input type="radio" id="party-b" name="party" value="Party B" />
+            <label for="party-b">Party B</label>
+          </div>
+          <div>
+            <input type="radio" id="party-c" name="party" value="Party C" />
+            <label for="party-c">Party C</label>
+          </div>
+        </div>
+        <div class="input-group">
+          <label for="voters">Voters</label>
+          <input
+            name="voters"
+            type="number"
+            placeholder="Enter Number Of Voters"
+            id="voters"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <button type="submit">Submit</button>
+        </div>
+        <div
+          class="error-message"
+          role="alert"
+          id="error-message"
+          aria-live="assertive"
+        ></div>
+      </form>
+      <div class="voter-list" id="voter-list"></div>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

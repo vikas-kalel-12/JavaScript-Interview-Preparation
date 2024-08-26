@@ -1,0 +1,15 @@
+.list-item{
+    list-style: none;
+    width: 29%;
+    margin: 1%;
+    padding: 1;
+}
+.list-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-wrapper{
+    display: flex;
+    justify-content: center;
+}
