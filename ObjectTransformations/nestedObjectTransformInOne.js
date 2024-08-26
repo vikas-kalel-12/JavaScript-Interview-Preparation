@@ -43,6 +43,5 @@ const data = {
     }
     return acc;
   }, {});
-
   console.log(result, "result");
 })();
