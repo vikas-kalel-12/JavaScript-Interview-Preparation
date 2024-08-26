@@ -14,3 +14,9 @@ function Print(word) {
 }
 
 Print.myApply({ name: "John" }, ["Hello"]);
+
+// apply
+// apply is used to call a function immediately
+// apply takes arguments as array
+// apply takes this as first argument
+// apply executes the function immediately

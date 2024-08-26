@@ -11,3 +11,9 @@ function Print(word) {
 }
 
 Print.myCall({ name: "John" }, "Hello");
+
+// call
+// call is used to call a function immediately
+// call takes arguments as comma separated
+// call takes this as first argument
+// call executes the function immediately
